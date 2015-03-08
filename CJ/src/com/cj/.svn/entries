@@ -1,0 +1,37 @@
+8
+
+dir
+7035
+http://newideas:81/svn/Idealabs2009/trunk/CJ/src/com/cj
+http://newideas:81/svn/Idealabs2009
+
+
+
+2009-03-19T16:50:54.187500Z
+3740
+journalist
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ef27e667-7ac1-9241-b54c-1f779274d8b7
+
+dao
+dir
+
+bean
+dir
+
+dto
+dir
+

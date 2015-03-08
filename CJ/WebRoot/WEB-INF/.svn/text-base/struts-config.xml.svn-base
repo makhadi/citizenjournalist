@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans >
+    <form-bean name="loginForm" type="com.yourcompany.struts.form.LoginForm" />
+    <form-bean name="userForm" type="com.yourcompany.struts.form.UserForm" />
+    <form-bean name="contentViewForm" type="com.yourcompany.struts.form.ContentViewForm" />
+    <form-bean name="videoUploadForm" type="com.yourcompany.struts.form.VideoUploadForm" />
+    <form-bean name="textActionForm" type="com.yourcompany.struts.form.TextActionForm" />
+    <form-bean name="imageActionForm" type="com.yourcompany.struts.form.ImageActionForm" />
+
+  </form-beans>
+
+  <global-exceptions />
+  <global-forwards />
+  <action-mappings >
+    <action
+      attribute="loginForm"
+      input="/form/login.jsp"
+      name="loginForm"
+      path="/login"
+      scope="request"
+      type="com.yourcompany.struts.action.LoginAction" />
+    <action
+      attribute="userForm"
+      name="userForm"
+      parameter="method"
+      path="/user"
+      scope="request"
+      type="com.yourcompany.struts.action.UserAction" />
+    <action
+      attribute="contentViewForm"
+      input="/form/contentView.jsp"
+      parameter="method"
+      name="contentViewForm"
+      path="/contentView"
+      scope="request"
+      type="com.yourcompany.struts.action.ContentViewAction" />
+    <action
+      attribute="videoUploadForm"
+      name="videoUploadForm"
+      path="/videoUpload"
+      scope="request"
+      type="com.yourcompany.struts.action.VideoUploadAction" />
+    <action
+      attribute="textActionForm"
+      parameter="method"
+      name="textActionForm"
+      path="/textAction"
+      scope="request"
+      type="com.yourcompany.struts.action.TextAction" />
+    <action
+      attribute="imageActionForm"
+      input="/form/imageAction.jsp"
+      name="imageActionForm"
+      parameter="method"
+      path="/imageAction"
+      scope="request"
+      type="com.yourcompany.struts.action.ImageAction" />
+
+  </action-mappings>
+
+  <message-resources parameter="com.yourcompany.struts.ApplicationResources" />
+</struts-config>
+

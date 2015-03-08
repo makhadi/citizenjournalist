@@ -1,0 +1,63 @@
+8
+
+dir
+7035
+http://newideas:81/svn/Idealabs2009/trunk/CJ/WebRoot
+http://newideas:81/svn/Idealabs2009
+
+
+
+2009-03-30T00:19:34.875000Z
+5947
+journalist
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ef27e667-7ac1-9241-b54c-1f779274d8b7
+
+META-INF
+dir
+
+index.jsp
+file
+
+
+
+
+2009-04-09T00:21:29.546875Z
+eeaff70c88d02f76d125e1ef2a7e7c9f
+2009-03-19T00:15:48.765625Z
+3509
+journalist
+has-props
+
+video
+dir
+
+WEB-INF
+dir
+
+1.3gpp
+file
+
+
+
+
+2009-04-09T00:21:29.562500Z
+0c253bc0ec03145b7ef730301e90e0d7
+2009-03-30T00:19:34.875000Z
+5947
+journalist
+has-props
+
